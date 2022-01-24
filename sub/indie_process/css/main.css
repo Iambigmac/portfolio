@@ -1,0 +1,46 @@
+#wrap1{
+    display: flex;
+}
+#wrap1 .left{
+    width: 80%;
+}
+#wrap1 .left img{
+    width: 100%;
+}
+#wrap1 .right{
+    width: 20%;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+}
+#wrap1 .right .close button {
+    width: 5vw;
+    font-size: 1vw;
+    border: none;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+}
+#wrap1 .right ul{
+    font-size: 1vw;
+    margin-top: 30%;
+    text-align: center;
+    color: #fff;
+    line-height: 3vw;
+}
+#wrap1 .right .site button{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 60%; height: 0.8%;
+   font-size: 1vw;
+   background-color: #fffdec;
+   border: 0.3vw solid #bcc6b5;
+   border-radius: 10px;
+   font-family: 'Cafe24SsurroundAir';
+   font-weight: bold;
+   transition: all 1s;
+}
+#wrap1 .right button:hover{
+    background-color: #bcc6b5;
+    color: #fff;
+}

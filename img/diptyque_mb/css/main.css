@@ -1,0 +1,518 @@
+#wrap{
+    width: 100%;
+    position: relative;    
+}
+#header{
+    width: 100%;
+    height:51px;
+    position:fixed;
+    top: 0; left: 0;
+    z-index: 300;
+    background-color: rgba(15, 21, 27);
+}
+#header .logo{
+    width: 89px; height: 41px;
+    margin: 0 auto;
+    padding-top:8px;
+}
+#header .flower_left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#header .flower_right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#header .gnb{
+    height: 14px;
+    position: absolute;
+    top:7px; 
+    left: 20px;
+}
+.gnb>li {float: left;}
+.gnb .g1{
+    position: relative;
+    width: 80px;
+}
+.gnb .g1>a{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.gnb .g2>a{
+    display: block;
+    padding-bottom: 10px;
+}
+.gnb .gnbSub01{
+    width:150px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    font-size:10px;
+    color: #ffff;
+    line-height:30px;
+    background-color: rgba(59, 79, 122, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+
+.gnb .gnbSub01 li{
+    width: 100px;
+    padding:10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gnb .gnbSub01 li a{color:#ffff;}
+.gnb .gnbSub01 li:hover a{color:rgb(200, 203, 206);}
+
+.gnb .gnbSub02{
+    width:150px;
+    margin: 0 auto;
+    position: absolute;
+    font-size:10px;
+    color: #ffff;
+    line-height:30px;
+    background-color: rgba(59, 79, 122, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+.gnb .gnbSub02 li{
+    width: 50px;
+    padding:7px 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left:20px;
+}
+.gnb .gnbSub02 li a{color:#ffff;}
+.gnb .gnbSub02 li:hover a{color:rgb(200, 203, 206);}
+/* gnb end */
+.util{
+    height: 14px;
+    position: absolute;
+    top:7px; right: 20px;
+}
+.util>li{float: left;}
+.util li{
+    padding-right:20px;
+}
+.util li:last-child{padding-right: 0;}
+
+#mainvisual{
+    width:100%; height: 600px;
+    background: url(../img/mainvisual.gif) no-repeat 0 0/ cover;
+    font-size: 0;
+    position: relative;
+}
+#mainvisual .m_logo{
+    position: absolute;
+    top: 50%; left:63px;
+}
+#product{
+    position: relative;
+    width:100%; height:400px;
+    background-color:rgba(97,108,124);
+    margin:40px 0 ;
+    position: relative;
+    transition:all 1s;
+    background-image: url(../img/pngwing.com\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    background-position-x: -40px;
+    background-position-y:-00px ;
+}
+#product ul li {
+    position: absolute;
+    width: 200px; height: 300px;
+    top:50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+#product ul li .slick-arrow{
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 0;
+    width: 30px; height: 30px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+#product ul li .slick-prev{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    left: -70px;
+    transform: rotate(-135deg);
+    z-index: 10;
+}
+#product ul li .slick-next{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+    right: -70px;
+    transform: rotate(45deg);
+    z-index: 10;
+}
+#container{
+    height:auto;
+    margin:40px 20px 40px 20px;
+    position: relative;
+}
+.cont1{
+    width: 100%;
+    height:451px;
+    position: relative;
+}
+.cont1 .left{
+    width: 50%; 
+    position: absolute;
+    top: 0; left: 0;
+    float: left;
+}
+.cont1 .left img{
+    width: 100%; height: 451px;
+}
+.cont1 .box .perfume{
+    width: 150px; height: 40px;
+    border: 5px solid #000;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.cont1 .box .perfume:hover{
+    background-color: #000;
+    color: rgb(134, 134, 134);
+    border: 5px solid rgb(163, 163, 163);
+}
+
+.cont1 .right{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 50%;
+}
+.cont1 .right>p{float: left;}
+.cont1 .right .side_l{
+    width: 100%; height: 451px;
+}
+.cont1 .right .side_r{
+    position: absolute;
+    top: 0; right:0;
+}
+.cont1 .right .box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont1 .right .box .txt{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.cont2{
+    width: 100%;
+    height:451px;
+    padding-bottom: 40px;
+    position: relative;
+
+}
+.cont2 h2{
+    padding-top:47px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont2 .back{
+    width: 100%;
+    height: 451px;
+    background:url(../img/cont2_flower.png)no-repeat ;
+    font-size: 0;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.cont2 .left{
+    width: 50%; height:451px;
+    float: left;
+    position: absolute;
+    top:90px;
+}
+.cont2 .left .newyork{
+    width:100%; height:401px;
+    background: url(../img/cont2_01.jpg) no-repeat 0 0/cover;
+    font-size: 0;
+    position: relative;
+}
+.cont2 .left .white{
+    position: absolute;
+    width: 100%; height: 401px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255,.3);
+    font-size:0;
+}
+.cont2 .left .click{
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; height: 30px;
+    border: 5px solid #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.3s;
+}
+.cont2 .left .click:hover{
+    background-color: #000;
+    color: rgb(134, 134, 134);
+    border: 5px solid rgb(163, 163, 163);
+}
+.cont2 .left .candle{
+    position: absolute;
+    bottom:30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.cont2 .left .candle img{
+    width: 200px
+}
+.cont2 .right{
+    width: 50%; height:451px;
+    float: left;
+    position: absolute;
+    top:90px;
+    right: 0;
+}
+.cont2 .right .spain{
+    width:100%; height:401px;
+    background: url(../img/cont2_02.jpg) no-repeat 0 0/cover;
+    font-size: 0;
+    position: relative;
+}
+.cont2 .right .white{
+    position: absolute;
+    width: 100%; height: 401px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255,.3);
+    font-size:0;
+}
+.cont2 .right .click{
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; height: 30px;
+    border: 5px solid #000;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.cont2 .right .click:hover{
+    background-color: #000;
+    color: rgb(134, 134, 134);
+    border: 5px solid rgb(163, 163, 163);
+}
+.cont2 .right .candle{
+    position: absolute;
+    bottom:30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont2 .right .candle img{
+    width: 200px;
+}
+.cont3{
+    height:451px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cont3 .left{
+    width: 50%; height: 451px;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+.cont3 .left .box{
+    width: 100%; height: 451px;
+}
+.cont3 .left .box .side01{
+    width: 100%; 
+    position: absolute;
+    top: 0; left: 0;
+}
+.cont3 .left .box .side02{
+    position: absolute;
+    bottom: 0; right: 0;
+}
+.cont3 .left .history{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; height: 30px;
+    border: 5px solid #000;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.cont3 .left .history:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(134, 134, 134);
+    border: 5px solid rgb(163, 163, 163);
+}
+.cont3 .left .txt{
+    position: absolute;
+    top:52%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont3 .right{
+    width: 50%; height: 451px;
+    position: absolute;
+    right: 0;
+    float: left;
+}
+.cont3 .right .imge{
+    width: 100%; height: 451px;
+    background:url(../img/cont3_img.jpg) no-repeat 0 0 /cover;
+    font-size: 0;
+}
+.cont3 .right .logo{
+    position: absolute;
+    top: 30%;
+    left: 50%; transform: translateX(-50%);
+}
+.cont3 .right .gif{
+    width: 200px; height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 0;
+    background: url(../img/gifgif.gif)no-repeat 51% 0/cover;
+    border-radius: 40%;
+    display: none;
+    transition: 0.2s;
+}
+.cont3 .right:hover .gif{
+    display: block;
+}
+
+.cont4{
+    width: 100%;
+    height:451px;
+    padding-bottom: 40px;
+    background:url(../img/cont4_img.jpg) no-repeat 0 0 /cover;
+    font-size: 0;
+    position: relative;
+}
+.cont4 .black{
+    position: absolute;
+    width: 100%; height: 490px;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.cont4 .lab{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont4 .txt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont4 .read{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; height: 30px;
+    border: 5px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.cont4 .read:hover{
+    background-color: #000;
+    color: rgb(134, 134, 134);
+    border: 5px solid rgb(163, 163, 163);
+}
+#footer{
+    height:250px;
+    background-color:rgba(15, 21, 27);
+    margin-top: 40px;
+    position: relative;
+}
+#footer .left{
+    width:50%; height:250px;
+    float: left;
+}
+#footer .left .flogo{
+    position: absolute;
+    top: 0; left: 20px;
+}
+#footer .left .imge{
+    position: absolute;
+    bottom:-16%;
+    left: 20%
+    
+}
+#footer .left .text{
+    position: absolute;
+    top:123px;
+    left: 20px;
+}
+#footer .middle{
+    width: 25%; height:250px;
+    float: left;
+}
+#footer .middle .caution{
+    padding-bottom: 20px;
+}
+#footer .right{
+    position: absolute;
+    right: 0;
+    width: 25%;
+}
+#footer .right .lang{
+    padding-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer .right .lang .txt{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#footer .right .lang .l_box{
+    width: 140px;
+    border: none;
+}
+#footer .right .sns{
+    position: absolute;
+    top:145px;    
+}
+#footer .right .sns .follow{
+    padding-bottom: 10px;
+}
+#footer .right .sns ul>li{float: left;}
+#footer .right .sns ul li{padding-right: 2px;}
